@@ -1,0 +1,54 @@
+.student{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 1px solid grey;
+}
+
+
+.studentPic{
+    margin: 3em;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: silver;
+}
+
+.studentInfo{
+   width: 400px;
+}
+
+.studentName{
+    font-family: Raleway, sans-serif;
+    color: black;
+    text-transform: uppercase;
+}
+
+.studentTag{
+    background-color: #ccc;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: black;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.studentDetails {
+    padding-left: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+  }
+
+.studentExpandIcon{
+    background: transparent;
+    border: none;
+    font-size: 4em;
+    color: grey;
+    cursor: pointer;
+}
+.studentExpandIcon:focus{
+    outline-width: 0;
+}
