@@ -1,0 +1,12 @@
+---
+applications:
+- name: hatchways-assessment
+  instances: 1
+  memory: 64M
+  host: studentlist
+  path: build/
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack
+  env:
+    NODE_ENV: production
+    PUSH_STATE: true
+    FORCE_HTTPS: true
